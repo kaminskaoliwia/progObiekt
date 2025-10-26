@@ -1,4 +1,4 @@
-#include "time.h"
+#include "../time.h"
 
 Time::Time() {
     setDate(12,00,00);

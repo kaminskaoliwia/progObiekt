@@ -1,8 +1,8 @@
 #include "data.h"
 
-Date::Date() {
-    setDate(1,1,1990);
-}
+//Date::Date() {
+//    setDate(1,1,1990);
+//}
 
 Date::Date(int d, int m, int y) {
     setDay(d);
