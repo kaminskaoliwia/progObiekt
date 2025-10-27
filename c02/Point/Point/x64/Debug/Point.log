@@ -1,0 +1,11 @@
+﻿  main.cpp
+  Point.cpp
+  Segm.cpp
+C:\Users\kamin\Desktop\progObiekt\c02\Point\Point\Segm.cpp(7,67): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\kamin\Desktop\progObiekt\c02\Point\Point\Segm.cpp(7,63): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\kamin\Desktop\progObiekt\c02\Point\Point\Segm.cpp(7,81): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\kamin\Desktop\progObiekt\c02\Point\Point\Segm.cpp(7,77): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\kamin\Desktop\progObiekt\c02\Point\Point\Segm.cpp(19,47): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\kamin\Desktop\progObiekt\c02\Point\Point\Segm.cpp(19,16): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
+  Point.vcxproj -> C:\Users\kamin\Desktop\progObiekt\c02\Point\x64\Debug\Point.exe

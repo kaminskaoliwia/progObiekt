@@ -1,0 +1,414 @@
+﻿  DateTime.cpp
+C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.h(6,24): error C2504: 'Date': base class undefined
+  (compiling source file 'DateTime.cpp')
+  
+C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.h(6,37): error C2504: 'Time': base class undefined
+  (compiling source file 'DateTime.cpp')
+  
+C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.h(12,19): error C2143: syntax error: missing ';' before '&'
+  (compiling source file 'DateTime.cpp')
+  
+C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.h(12,12): error C2433: 'istream': 'friend' not permitted on data declarations
+  (compiling source file 'DateTime.cpp')
+  
+C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.h(12,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'DateTime.cpp')
+  
+C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.h(12,61): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'DateTime.cpp')
+  
+C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.h(13,19): error C2143: syntax error: missing ';' before '&'
+  (compiling source file 'DateTime.cpp')
+  
+C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.h(13,12): error C2433: 'ostream': 'friend' not permitted on data declarations
+  (compiling source file 'DateTime.cpp')
+  
+C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.h(13,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'DateTime.cpp')
+  
+C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.h(13,67): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'DateTime.cpp')
+  
+C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\data.h(23,12): error C2872: 'istream': ambiguous symbol
+  (compiling source file 'DateTime.cpp')
+      C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.h(12,12):
+      could be 'int istream'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iosfwd(230,19):
+      or       'std::istream'
+  
+C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\data.h(23,19): error C2143: syntax error: missing ';' before '&'
+  (compiling source file 'DateTime.cpp')
+  
+C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\data.h(23,12): error C2433: 'istream': 'friend' not permitted on data declarations
+  (compiling source file 'DateTime.cpp')
+  
+C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\data.h(23,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'DateTime.cpp')
+  
+C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\data.h(23,56): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'DateTime.cpp')
+  
+C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\data.h(24,12): error C2872: 'ostream': ambiguous symbol
+  (compiling source file 'DateTime.cpp')
+      C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.h(13,12):
+      could be 'int ostream'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iosfwd(231,19):
+      or       'std::ostream'
+  
+C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\data.h(24,19): error C2143: syntax error: missing ';' before '&'
+  (compiling source file 'DateTime.cpp')
+  
+C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\data.h(24,12): error C2433: 'ostream': 'friend' not permitted on data declarations
+  (compiling source file 'DateTime.cpp')
+  
+C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\data.h(24,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'DateTime.cpp')
+  
+C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\data.h(24,64): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'DateTime.cpp')
+  
+C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(7,11): error C2614: 'DateTime': illegal member initialization: 'Date' is not a base or member
+C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(7,26): error C2614: 'DateTime': illegal member initialization: 'Time' is not a base or member
+C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(11,11): error C2059: syntax error: 'const'
+C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(11,41): error C2059: syntax error: 'const'
+C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(11,75): error C2143: syntax error: missing ';' before '{'
+C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(11,75): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(22,5): error C2679: binary '>>': no operator found which takes a right-hand operand of type 'Date' (or there is no acceptable conversion)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream(303,39):
+      could be 'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_streambuf<char,std::char_traits<char>> *)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(22,5):
+          'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_streambuf<char,std::char_traits<char>> *)': cannot convert argument 2 from 'Date' to 'std::basic_streambuf<char,std::char_traits<char>> *'
+              C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(22,18):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream(299,39):
+      or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(void *&)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(22,5):
+          'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(void *&)': cannot convert argument 2 from 'Date' to 'void *&'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream(295,39):
+      or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long double &)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(22,5):
+          'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long double &)': cannot convert argument 2 from 'Date' to 'long double &'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream(291,39):
+      or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(double &)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(22,5):
+          'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(double &)': cannot convert argument 2 from 'Date' to 'double &'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream(287,39):
+      or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(float &)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(22,5):
+          'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(float &)': cannot convert argument 2 from 'Date' to 'float &'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream(283,39):
+      or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned __int64 &)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(22,5):
+          'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned __int64 &)': cannot convert argument 2 from 'Date' to 'unsigned __int64 &'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream(279,39):
+      or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(__int64 &)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(22,5):
+          'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(__int64 &)': cannot convert argument 2 from 'Date' to '__int64 &'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream(275,39):
+      or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned long &)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(22,5):
+          'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned long &)': cannot convert argument 2 from 'Date' to 'unsigned long &'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream(271,39):
+      or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long &)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(22,5):
+          'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long &)': cannot convert argument 2 from 'Date' to 'long &'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream(267,39):
+      or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned int &)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(22,5):
+          'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned int &)': cannot convert argument 2 from 'Date' to 'unsigned int &'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream(259,39):
+      or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(int &)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(22,5):
+          'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(int &)': cannot convert argument 2 from 'Date' to 'int &'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream(255,39):
+      or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned short &)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(22,5):
+          'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned short &)': cannot convert argument 2 from 'Date' to 'unsigned short &'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream(223,39):
+      or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(short &)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(22,5):
+          'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(short &)': cannot convert argument 2 from 'Date' to 'short &'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream(219,39):
+      or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(bool &)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(22,5):
+          'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(bool &)': cannot convert argument 2 from 'Date' to 'bool &'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream(190,39):
+      or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::ios_base &(__cdecl *)(std::ios_base &))'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(22,5):
+          'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::ios_base &(__cdecl *)(std::ios_base &))': cannot convert argument 2 from 'Date' to 'std::ios_base &(__cdecl *)(std::ios_base &)'
+              C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(22,18):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream(185,39):
+      or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(22,5):
+          'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))': cannot convert argument 2 from 'Date' to 'std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &)'
+              C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(22,18):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream(180,39):
+      or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_istream<char,std::char_traits<char>> &(__cdecl *)(std::basic_istream<char,std::char_traits<char>> &))'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(22,5):
+          'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_istream<char,std::char_traits<char>> &(__cdecl *)(std::basic_istream<char,std::char_traits<char>> &))': cannot convert argument 2 from 'Date' to 'std::basic_istream<char,std::char_traits<char>> &(__cdecl *)(std::basic_istream<char,std::char_traits<char>> &)'
+              C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(22,18):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(21,10):
+      or       'std::istream &operator >>(std::istream &,DateTime &)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(22,5):
+          'std::istream &operator >>(std::istream &,DateTime &)': cannot convert argument 2 from 'Date' to 'DateTime &'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream(907,9):
+      or       '_Istr &&std::operator >>(_Istr &&,_Ty &&)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(22,5):
+          '_Istr &&std::operator >>(_Istr &&,_Ty &&)': could not deduce template argument for '__formal'
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream(906,102):
+              '<template-parameter>': you cannot create a pointer to a reference
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream(894,31):
+      or       'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char &)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(22,18):
+          'initializing': cannot convert from 'Date' to 'unsigned char &'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream(888,31):
+      or       'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char &)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(22,18):
+          'initializing': cannot convert from 'Date' to 'signed char &'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream(865,32):
+      or       'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem &)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(22,5):
+          'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem &)': template parameter '_Elem' is ambiguous
+              C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(22,5):
+              could be 'Date'
+              C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(22,5):
+              or       'char'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(22,5):
+          'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem &)': could not deduce template argument for '_Elem &' from 'Date'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream(859,31):
+      or       'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char *)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(22,18):
+          'initializing': cannot convert from 'Date' to 'unsigned char *'
+              C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(22,18):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream(854,31):
+      or       'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char *)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(22,18):
+          'initializing': cannot convert from 'Date' to 'signed char *'
+              C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(22,18):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream(849,32):
+      or       'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem *)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(22,5):
+          'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem *)': could not deduce template argument for '_Elem *' from 'Date'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(3370,32):
+      or       'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(22,5):
+          'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'std::basic_string<_Elem,_Traits,_Alloc> &' from 'Date'
+      C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(22,5):
+      while trying to match the argument list '(std::istream, Date)'
+  
+C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,5): error C2679: binary '<<': no operator found which takes a right-hand operand of type 'Date' (or there is no acceptable conversion)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(486,39):
+      could be 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,5):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)': cannot convert argument 2 from 'Date' to 'std::basic_streambuf<char,std::char_traits<char>> *'
+              C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,19):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(454,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,5):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)': cannot convert argument 2 from 'Date' to 'const void *'
+              C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,19):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(436,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,5):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)': cannot convert argument 2 from 'Date' to 'long double'
+              C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,19):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(418,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,5):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)': cannot convert argument 2 from 'Date' to 'double'
+              C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,19):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(400,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,5):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)': cannot convert argument 2 from 'Date' to 'float'
+              C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,19):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(382,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,5):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)': cannot convert argument 2 from 'Date' to 'unsigned __int64'
+              C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,19):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(364,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,5):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)': cannot convert argument 2 from 'Date' to '__int64'
+              C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,19):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(346,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,5):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)': cannot convert argument 2 from 'Date' to 'unsigned long'
+              C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,19):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(328,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,5):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)': cannot convert argument 2 from 'Date' to 'long'
+              C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,19):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(309,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,5):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)': cannot convert argument 2 from 'Date' to 'unsigned int'
+              C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,19):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(283,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,5):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)': cannot convert argument 2 from 'Date' to 'int'
+              C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,19):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(264,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,5):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)': cannot convert argument 2 from 'Date' to 'unsigned short'
+              C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,19):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(230,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,5):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)': cannot convert argument 2 from 'Date' to 'short'
+              C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,19):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(212,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,5):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)': cannot convert argument 2 from 'Date' to 'bool'
+              C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,19):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(206,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,5):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))': cannot convert argument 2 from 'Date' to 'std::ios_base &(__cdecl *)(std::ios_base &)'
+              C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,19):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(200,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,5):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))': cannot convert argument 2 from 'Date' to 'std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &)'
+              C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,19):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(195,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,5):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))': cannot convert argument 2 from 'Date' to 'std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &)'
+              C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,19):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(26,10):
+      or       'std::ostream &operator <<(std::ostream &,const DateTime &)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,5):
+          'std::ostream &operator <<(std::ostream &,const DateTime &)': cannot convert argument 2 from 'Date' to 'const DateTime &'
+              C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,19):
+              Reason: cannot convert from 'Date' to 'const DateTime'
+              C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,19):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(1088,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,19):
+          'initializing': cannot convert from 'Date' to 'const std::error_code &'
+              C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,19):
+              Reason: cannot convert from 'Date' to 'const std::error_code'
+              C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,19):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(1011,9):
+      or       '_Ostr &&std::operator <<(_Ostr &&,const _Ty &)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,5):
+          '_Ostr &&std::operator <<(_Ostr &&,const _Ty &)': could not deduce template argument for '__formal'
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(1010,103):
+              '<template-parameter>': you cannot create a pointer to a reference
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(953,31):
+      or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,19):
+          'initializing': cannot convert from 'Date' to 'unsigned char'
+              C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,19):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(947,31):
+      or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,19):
+          'initializing': cannot convert from 'Date' to 'const unsigned char *'
+              C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,19):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(942,31):
+      or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,19):
+          'initializing': cannot convert from 'Date' to 'signed char'
+              C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,19):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(936,31):
+      or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,19):
+          'initializing': cannot convert from 'Date' to 'const signed char *'
+              C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,19):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(900,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,5):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': template parameter '_Elem' is ambiguous
+              C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,5):
+              could be 'Date'
+              C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,5):
+              or       'char'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,5):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': could not deduce template argument for '_Elem' from 'Date'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(857,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,5):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)': could not deduce template argument for 'const _Elem *' from 'Date'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(819,31):
+      or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,19):
+          'initializing': cannot convert from 'Date' to 'char'
+              C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,19):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(774,31):
+      or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,19):
+          'initializing': cannot convert from 'Date' to 'const char *'
+              C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,19):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(738,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,19):
+          'initializing': cannot convert from 'Date' to 'char'
+              C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,19):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(694,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,19):
+          'initializing': cannot convert from 'Date' to 'const char *'
+              C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,19):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(3761,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,5):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)': could not deduce template argument for 'const std::unique_ptr<_Ty2,_Dx2> &' from 'Date'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(1979,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,5):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)': could not deduce template argument for 'const std::shared_ptr<_Ty> &' from 'Date'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(3419,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+          C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,5):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'const std::basic_string<_Elem,_Traits,_Alloc> &' from 'Date'
+      C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(27,5):
+      while trying to match the argument list '(std::ostream, Date)'
+  
+C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(33,5): error C3861: 'setDate': identifier not found
+C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\DateTime.cpp(34,5): error C3861: 'setTime': identifier not found
+  time.cpp
+C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\time.cpp(3,7): error C2511: 'Time::Time(void)': overloaded member function not found in 'Time'
+      C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\time.h(11,7):
+      see declaration of 'Time'
+  
+C:\Users\kamin\Desktop\progObiekt\c01\DateTime\DateTime\time.cpp(4,5): error C3861: 'setDate': identifier not found
+  Generating Code...
