@@ -31,7 +31,6 @@ public:
   Matrix& operator *= ( int x );
 
   friend const Vector operator * ( const Vector& v, const Matrix& m ); // wektor * macierz
-  friend const Vector operator * (const Matrix& m, const Vector& v); // macierz * wektor z transpozycj¹
 
   friend const Matrix operator * ( const Matrix& m1, const Matrix& m2 ); // mno¿enie macierzy
 

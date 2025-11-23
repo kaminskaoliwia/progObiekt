@@ -80,6 +80,26 @@ const Vector operator * ( const Vector& v, const Matrix& m )
     throw VecException(VEC_INCOMPATIBLE_ERROR);
   }
   Vector res(m.getCols(), 0);
+  for( int j=0; j<m.getCols(); j++ ) {
+    for( int i=0; i<m.getRows(); i++ ) {
+      res[j] += v[i] * m.n_mRows[i][j];
+    }
+  }
 }
 
-const Vector operator * (const Matrix& m, const Vector& v); // macierz * wektor z transpozycj¹
+const Matrix operator * ( const Matrix& m1, const Matrix& m2 )
+{
+  if( m1.getCols() != m2.getRows() ) {
+    throw VecException(VEC_INCOMPATIBLE_ERROR);
+  }
+
+  Matrix res(m1.getRows(), m2.getCols(), 0);
+
+  for( int j=0; j< m2.getCols(); j++ ) {
+    for( int i=0; i< m1.getRows(); i++ ) {
+      for( int k=0; k< m2.getRows(); k++ ) {
+        res.n_mRows[i][j] += m1.n_mRows[i][k] * m2.n_mRows[k][j];
+      }
+    }
+  }
+}
