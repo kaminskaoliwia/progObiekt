@@ -30,15 +30,15 @@ template <class T> class Stack; // zapowiedz klasy Stack
 template <class T> class StackItem
 {
   private:
-  StackItem(T key, StackItem* pNext);
+  StackItem(T key, StackItem<T>* pNext);
   virtual ~StackItem(); 
 
   T getKey() const;
-  StackItem* getNext() const;
+  StackItem<T>* getNext() const;
   void setNext( StackItem<T>* pNext );
   void setKey( T key );
 
-  friend class Stack; // zaprzyjazniam WSZYSTKIE METODY Stack z klasa StackItem
+  friend class Stack<T>; // zaprzyjazniam WSZYSTKIE METODY Stack z klasa StackItem
 
 private:
   T mKey; // zawartosc
@@ -60,7 +60,7 @@ template <class T> StackItem<T>* StackItem<T>::getNext() const {
   return this->m_pNext;
 }
 
-template <class T> void StackItem<T>::setNext( StackItem* pNext ) {
+template <class T> void StackItem<T>::setNext( StackItem<T>* pNext ) {
   this->m_pNext = pNext;
 }
 
@@ -81,7 +81,7 @@ public:
   bool isEmpty(); // zwraca 1 gdy stos pusty, else 0
 
   private:
-    StackItem* m_pHead;
+    StackItem<T>* m_pHead;
 
 };
 
@@ -93,13 +93,6 @@ template <class T> bool Stack<T>::isEmpty() {
 
 // NOTATKI 
 /* template - wzorzec funkcji lub klasy, a nie konkretne funkcje */
-
-template <class T>
-StackItem<T>::StackItem(T key, StackItem* pNext) 
-{
-  setKey(key);
-  setNext(pNext);
-}
 
 template <class T>
 StackItem<T>::~StackItem() {
