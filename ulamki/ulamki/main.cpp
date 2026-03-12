@@ -5,11 +5,13 @@
 int main()
 {
   Rational r1(1,3);
-  Rational r2(10,3);
-  cout << "Podaj licznik i mianownik = ";
+  Rational r2; 
+
+  cout << "Podaj drugi ulamek: "; 
   cin >> r2;
 
   Rational r3(4, 16);
+  cout << "\nr4 zawiera w mianowniku zero co wywoluje blad: \n";
   Rational r4(2,0);
 
   Rational suma  = r1 + r2;

@@ -27,59 +27,61 @@ Rational& Rational::operator = (const Rational& r)
 
 const Rational operator + (const Rational& r1, const Rational& r2)
 {
-  int num;
-  int denum;
-
-  if( r1.mDenominator == r2.mDenominator )
-  {
-    num = r1.mNumerator + r2.mNumerator;
-    denum = r1.mDenominator;
-  }
-  else
-  {
-    num = r1.mNumerator * r2.mDenominator + r2.mNumerator * r1.mDenominator;
-    denum = r1.mDenominator * r2.mDenominator;
-  }
-
-  return Rational(num, denum);
+  Rational res= r1;
+  return res += r2;
 }
 
 const Rational operator - (const Rational& r1, const Rational& r2)
 {
-  return r1 + Rational(-r2.mNumerator, r2.mDenominator);
+  Rational res( r1 );
+  return res -= r2;
 }
 
 const Rational operator * (const Rational& r1, const Rational& r2)
 {
-  return Rational(r1.mNumerator*r2.mNumerator, r1.mDenominator*r2.mDenominator);
-}
+  Rational res( r1 );
+  return res *= r2;
+ }
 
 const Rational operator / (const Rational& r1, const Rational& r2)
 {
-  return r1 * Rational(r2.mDenominator, r2.mNumerator); // dzielenie = mnozenie przez odwrotnosc
+  Rational res( r1 );
+  return res /= r2;
 }
 
 Rational& Rational::operator += (const Rational& r)
 {
-  *this = *this + r;
+  mNumerator = mNumerator * r.mDenominator + r.mNumerator * mDenominator;
+  mDenominator = mDenominator * r.mDenominator;
+  reduce();
   return *this;
 }
 
 Rational& Rational::operator -= (const Rational& r)
 {
-  *this = *this - r;
+  mNumerator = mNumerator * r.mDenominator - r.mNumerator * mDenominator;
+  mDenominator = mDenominator * r.mDenominator;
+  reduce();
   return *this;
 }
 
 Rational& Rational::operator *= (const Rational& r)
 {
-  *this = *this * r;
+  mNumerator *= r.mNumerator;
+  mDenominator *= r.mDenominator;
+  reduce();
   return *this;
 }
 
 Rational& Rational::operator /= (const Rational& r)
 {
-  *this = *this / r;
+  if( r.mNumerator == 0 )
+  {
+    cerr << "ERROR: division by zero" << endl;
+  }
+  mNumerator *= r.mDenominator;
+  mDenominator *= r.mNumerator;
+  reduce();
   return *this;
 }
 

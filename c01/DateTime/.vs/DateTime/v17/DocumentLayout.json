@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\kamin\\Desktop\\progObiekt\\c01\\DateTime\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{30F2C566-1A25-49F1-AC1D-2691D9F906F2}|DateTime\\DateTime.vcxproj|C:\\Users\\kamin\\Desktop\\progObiekt\\c01\\DateTime\\DateTime\\data.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{30F2C566-1A25-49F1-AC1D-2691D9F906F2}|DateTime\\DateTime.vcxproj|solutionrelative:DateTime\\data.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30F2C566-1A25-49F1-AC1D-2691D9F906F2}|DateTime\\DateTime.vcxproj|C:\\Users\\kamin\\Desktop\\progObiekt\\c01\\DateTime\\DateTime\\DateTime.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{30F2C566-1A25-49F1-AC1D-2691D9F906F2}|DateTime\\DateTime.vcxproj|solutionrelative:DateTime\\DateTime.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{30F2C566-1A25-49F1-AC1D-2691D9F906F2}|DateTime\\DateTime.vcxproj|C:\\Users\\kamin\\Desktop\\progObiekt\\c01\\DateTime\\DateTime\\DateTime.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{30F2C566-1A25-49F1-AC1D-2691D9F906F2}|DateTime\\DateTime.vcxproj|solutionrelative:DateTime\\DateTime.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{30F2C566-1A25-49F1-AC1D-2691D9F906F2}|DateTime\\DateTime.vcxproj|C:\\Users\\kamin\\Desktop\\progObiekt\\c01\\DateTime\\DateTime\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{30F2C566-1A25-49F1-AC1D-2691D9F906F2}|DateTime\\DateTime.vcxproj|solutionrelative:DateTime\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30F2C566-1A25-49F1-AC1D-2691D9F906F2}|DateTime\\DateTime.vcxproj|C:\\Users\\kamin\\Desktop\\progObiekt\\c01\\DateTime\\DateTime\\DateTime.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{30F2C566-1A25-49F1-AC1D-2691D9F906F2}|DateTime\\DateTime.vcxproj|solutionrelative:DateTime\\DateTime.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30F2C566-1A25-49F1-AC1D-2691D9F906F2}|DateTime\\DateTime.vcxproj|C:\\Users\\kamin\\Desktop\\progObiekt\\c01\\DateTime\\DateTime\\data.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{30F2C566-1A25-49F1-AC1D-2691D9F906F2}|DateTime\\DateTime.vcxproj|solutionrelative:DateTime\\data.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{30F2C566-1A25-49F1-AC1D-2691D9F906F2}|DateTime\\DateTime.vcxproj|C:\\Users\\kamin\\Desktop\\progObiekt\\c01\\DateTime\\DateTime\\time.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
@@ -46,8 +46,7 @@
               "RelativeToolTip": "DateTime\\time.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-27T11:27:36.277Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T11:27:36.277Z"
             },
             {
               "$type": "Document",
@@ -59,25 +58,24 @@
               "RelativeToolTip": "DateTime\\time.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-10-27T11:27:32.625Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T11:27:32.625Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "data.h",
               "DocumentMoniker": "C:\\Users\\kamin\\Desktop\\progObiekt\\c01\\DateTime\\DateTime\\data.h",
               "RelativeDocumentMoniker": "DateTime\\data.h",
               "ToolTip": "C:\\Users\\kamin\\Desktop\\progObiekt\\c01\\DateTime\\DateTime\\data.h",
               "RelativeToolTip": "DateTime\\data.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-10-27T11:27:31.288Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "DateTime.h",
               "DocumentMoniker": "C:\\Users\\kamin\\Desktop\\progObiekt\\c01\\DateTime\\DateTime\\DateTime.h",
               "RelativeDocumentMoniker": "DateTime\\DateTime.h",
@@ -90,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\kamin\\Desktop\\progObiekt\\c01\\DateTime\\DateTime\\main.cpp",
               "RelativeDocumentMoniker": "DateTime\\main.cpp",
@@ -103,7 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "DateTime.cpp",
               "DocumentMoniker": "C:\\Users\\kamin\\Desktop\\progObiekt\\c01\\DateTime\\DateTime\\DateTime.cpp",
               "RelativeDocumentMoniker": "DateTime\\DateTime.cpp",

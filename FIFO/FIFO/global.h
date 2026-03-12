@@ -15,7 +15,7 @@ public:
   QInfo(int key = 0, int* pTab = nullptr);
   virtual ~QInfo();
 
-  friend ostream operator << (ostream& out, const QINFO& info); 
+  friend ostream& operator << (ostream& out, const QINFO& info); 
 
   //---gettery---
   inline int getKey() const;

@@ -19,7 +19,7 @@ private:
 inline const char* StackException::getReason() {
   switch( mErrCode )
   {
-  case STACK_OVERFLOW: return "ERROR: stack overflow!\n";
+  case STACK_OVERFLOW: return "ERROR: allocation error!\n";
   case STACK_UNDERFLOW: return "ERROR: stack underflow!\n";
   default: return "ERROR: undefined error!\n";
   }
@@ -114,7 +114,7 @@ template <class T>
 void Stack<T>::push(T c) {
   StackItem<T>* p = new (nothrow) StackItem<T>(c, m_pHead);
   if (!p) {
-    throw StackException(STACK_UNDEF_ERROR);
+    throw StackException(STACK_OVERFLOW);
   }
   m_pHead = p;
 }

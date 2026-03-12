@@ -57,7 +57,7 @@ inline void Rational::SetNumerat(int Num)
 
 inline void Rational::SetDenominant(int Denum)
 {
-  if( !Denum ) {
+  if( Denum == 0 ) {
     cerr << "ERROR: division by zero !! in SetDenominant" << endl << endl;
     Denum = 1;
   }
@@ -67,13 +67,14 @@ inline void Rational::SetDenominant(int Denum)
 
 inline void Rational::setRational(int num, int denum)
 {
-  if( !denum ) {
+ /* if( denum == 0 ) {
     cerr << "ERROR: division by zero !! in setRational" << endl << endl;
     denum = 1;
-  }
+  }*/
   mNumerator = num;
-  mDenominator = denum;
-  reduce();
+  SetDenominant( denum );
+  //mDenominator = denum;
+  //reduce();
 }
 
 inline int Rational::GetNumerat() const

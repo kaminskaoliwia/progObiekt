@@ -23,13 +23,14 @@ private:
   FQItem* pTail;  // ptr to the last queue item
 
 public:
-  int     FQEmpty();
-  int     FQEnqueue(QINFO* p );
+  FQueue();
+  ~FQueue();
+  bool     FQEmpty();
+  bool     FQEnqueue(QINFO* p );
   QINFO*  FQDequeue();
-  void    FQClear(void(__cdecl* freeMem)(const void*) );
-  void    FQRemove( FQueue** q, void (__cdecl* freeMem)(const void*) );
+  void    FQClear();
   void    FQDel();
-  void    FQPrint(void(__cdecl* printInfo )(const void*) );
+  void    FQPrint();
 }; 
 
 

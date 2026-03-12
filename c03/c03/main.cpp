@@ -2,11 +2,42 @@
 #include <iostream>
 using namespace std;
 #include "Vector.h"
+#include "Matrix.h"
 
-// #define TEST_VECTOR
-
+//#define TEST_VECTOR
+#define TEST_MATRIX
 int main()
 {
+
+#ifdef TEST_MATRIX
+  Matrix m1;
+  cout << "m1 = " << m1 << endl;
+
+  Matrix m2(2,3,3);
+  cout << "m2 = " << m2 << endl;
+
+  m1 = m2;
+  cout << "m1 po postawieniu = " << m2 << endl;
+
+  Matrix m3(3,2,5);
+  cout << "m3 = " << m3 << endl;
+
+  m3 *= 2;
+  cout << "m3 po pomnozeniu przez 2 = " << m3 << endl;
+
+  Matrix m4( 2,2 );
+  m4 = m2 * m3;
+  cout << "m4 = m2 * m3" << m4 << endl;
+
+  Vector v0(2,2);
+  cout << "v0 = " << v0 << endl;
+  v0 = m4*v0;
+  cout << "v0 = m4 * v0 " << v0 << endl;
+  
+  Matrix m5( m4 );
+  cout << "konstruktor kopiujacy\n" << m5;
+#endif
+
 #ifdef TEST_VECTOR
 
   Vector v1;
@@ -49,6 +80,8 @@ int main()
   cout << "v1 = " << v1 << endl;
 
 #endif
+
+
   
 
   return 0;

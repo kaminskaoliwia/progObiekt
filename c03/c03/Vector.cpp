@@ -1,6 +1,6 @@
 #include "Vector.h"
 
-Vector::Vector( int nSize/*=2*/, int nElem/*=0*/ ) {
+Vector::Vector( int nSize/*=2*/, double nElem/*=0*/ ) {
   createVec( nSize ); // funkcja prywatna
   if( !m_pCoord )
     throw VecException(VEC_ALLOCATION_ERROR);

@@ -1,16 +1,34 @@
-
 #include "FQueue.h"
 
-int FQueue::FQEmpty() {
+FQItem::FQItem(QINFO* info, FQItem* next) : pInfo(info) {
+  pNext = nullptr;
+}
+
+FQItem::~FQItem() {
+
+}
+
+FQueue::FQueue() /*: pHead(nullptr), pTail(nullptr) */
+{
+  pHead = nullptr;
+  pTail = nullptr;
+}
+
+FQueue::~FQueue() {
+  FQClear();
+}
+
+bool FQueue::FQEmpty() {
   return !pHead;
 }
 
-int FQueue::FQEnqueue(QINFO* p ) {
+bool FQueue::FQEnqueue(QINFO* p ) {
 
   FQItem* pNew = new FQItem(p, nullptr);
   
   if (!pNew) {
-    return 0; 
+    cerr << "\nERROR FQItem: b³¹d alokacji\n";
+    return false; 
   }
 
   if( pHead == nullptr )
@@ -23,11 +41,15 @@ int FQueue::FQEnqueue(QINFO* p ) {
   }
   pTail = pNew;
 
-  return 1;
+  return true;
 }
 
 QINFO* FQueue::FQDequeue() {
-  if ( FQEmpty() ) return 0;
+  if ( FQEmpty() ) 
+  {
+    cerr << "\nERROR FQDEqueue: Kolejka jest pusta\n";
+    return nullptr;
+  }
 
   QINFO* value = pHead->pInfo;
 
@@ -36,51 +58,44 @@ QINFO* FQueue::FQDequeue() {
   return value;
 }
 
-void FQueue::FQClear(void(__cdecl* freeMem)(const void*) ) {
-  
-  if (!freeMem) {
-    printf("FQCLEAR: Funkcja freeMem jest NULL\n");
-    return;
-  }
+void FQueue::FQClear() {
 
   while ( !FQEmpty() ) 
   {
-    freeMem( FQDequeue() );
+    QINFO* element = FQDequeue();
+
+    if (element != nullptr) {
+      delete element;
+    }
   }
-
-  pHead = pTail = NULL;
-}
-
-void FQueue::FQRemove( FQueue** q, void (__cdecl* freeMem)(const void*) ) {
-  FQClear( freeMem );
-  free( *q ); 
-  *q = NULL;
 }
 
 void FQueue::FQDel() {
 
-  if( FQEmpty )
+  if( FQEmpty() )
   {
-    printf("\nFQDEL: Kolejka jest pusta lub nie istnieje.\n");
+    cerr << "\nFQDEL: Kolejka jest pusta lub nie istnieje.\n";
     return;
 }
   FQItem* temp = pHead;
   pHead = temp->pNext;
 
-  free(temp); 
+  delete temp; 
 
   if ( FQEmpty() )
   {
-    pTail = NULL;
+    pTail = nullptr;
   }
 }
 
+void  FQueue::FQPrint() {
+  if ( FQEmpty() ) {
+    cerr << "\nKolejka jest pusta.\n";
+    return; }
 
-void  FQueue::FQPrint(void(__cdecl* printInfo )(const void*) ) {
   FQItem* p = pHead;
-
   while (p != NULL) {
-    printInfo(p->pInfo);
+    printf("%d ", p->pInfo->key);
     p = p->pNext;
-
+  }
 }

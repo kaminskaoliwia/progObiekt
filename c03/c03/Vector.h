@@ -34,7 +34,7 @@ default: return "ERROR: other error!\n";
 class Vector
 {
 public:
-  explicit Vector( int nSize=2, int nElem=0 );
+  explicit Vector( int nSize=2, double nElem=0 );
   Vector( const Vector& v ); // konstruktor kopiujacy
   virtual ~Vector(); // destruktor
 
@@ -138,5 +138,4 @@ operatory:
   - pozostale operatory ( o ile trzeba )
 
   Pozostale metody publiczne i prywatne (jako pomocnicze do realizacji metod publicznych)
-
 */
